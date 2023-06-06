@@ -12,14 +12,14 @@ The project follows a specific directory structure to organize the client-side a
 ├── client
 │     ├── public
 │     ├── src
-│     │   ├── assets
-│     │   ├── components
-│     │   ├── scenes
-│     │   ├── state
-│     │   ├── App.js
-│     │   ├── index.css
-│     │   ├── index.js
-│     │   └── theme.js
+│     │    ├── assets
+│     │    ├── components
+│     │    ├── scenes
+│     │    ├── state
+│     │    ├── App.js
+│     │    ├── index.css
+│     │    ├── index.js
+│     │    └── theme.js
 │     ├── jsconfig.json
 │     ├── package-lock.json
 │     └── package.json
