@@ -1,11 +1,10 @@
 # Trade Tracker
-============================
 
 ## Build a MERN app deploy in Render.com
 
 ### The purpose of this project is to build a free solid link between the client and the server having MongoDB as a database.
 
-...  
+ . 
  ├── client 
  │     ├── public
  │     ├── src
