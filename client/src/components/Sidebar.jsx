@@ -128,11 +128,11 @@ const Sidebar = ({
           }}
         >
           <Box width="100%">
-            <Box m="0.5rem 1rem 0.5rem 3rem">
+            <Box m="1.5rem 1rem 1.5rem 3rem">
               <FlexBetween color={theme.palette.secondary.main}>
                 <Box display="flex" alignItems="center" gap="0.5rem">
                   <Typography variant="h4" fontWeight="bold">
-                    ECOMVISION
+                    Trade Tracker
                   </Typography>
                 </Box>
                 {!isNonMobile && (

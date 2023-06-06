@@ -1,3 +1,4 @@
+import {useState, useEffect} from 'react'
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { useMemo } from "react";
@@ -16,12 +17,27 @@ import Monthly from "scenes/monthly";
 import Breakdown from "scenes/breakdown";
 import Admin from "scenes/admin";
 import Performance from "scenes/performance";
+import Loader from "components/Loader"
 
 function App() {
+	
+  const [loading, setLoading] = useState(false);
+
+	useEffect(() => {
+		setLoading(true);
+		setTimeout(() => {
+			setLoading(false);
+		}, 6000);
+	}, []);
+
+
   const mode = useSelector((state) => state.global.mode);
   const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
   return (
     <div className="app">
+      	{loading ? (
+				<Loader />
+			) : (
             <BrowserRouter>
         <ThemeProvider theme={theme}>
           <CssBaseline />
@@ -45,6 +61,7 @@ function App() {
           </Routes>
         </ThemeProvider>
       </BrowserRouter>
+      )}
     </div>
   );
 }
