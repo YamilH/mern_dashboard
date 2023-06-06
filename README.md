@@ -8,7 +8,7 @@ Trade Tracker is a MERN (MongoDB, Express.js, React.js, Node.js) application des
 
 The project follows a specific directory structure to organize the client-side and server-side code. Here's an overview of the directory structure:
 
-.
+```.
 ├── client
 │     ├── public
 │     ├── src
@@ -31,7 +31,7 @@ The project follows a specific directory structure to organize the client-side a
       ├── index.js
       ├── package-lock.json
       └── package.json
-
+```
 
 ### Client
 
