@@ -4,6 +4,7 @@
 
 Trade Tracker is a MERN (MongoDB, Express.js, React.js, Node.js) application designed to create a solid link between the client and the server, utilizing MongoDB as the database. The goal of this project is to provide a seamless trading experience for users by allowing them to track their trades and manage their trading activities effectively.
 
+
 ## Project Structure
 
 The project follows a specific directory structure to organize the client-side and server-side code. Here's an overview of the directory structure:
@@ -61,15 +62,16 @@ The `server` directory contains the back-end code of the application. It has the
 - `index.js`: The main entry point of the server application, responsible for setting up the server and connecting to the database.
 - `package-lock.json` and `package.json`: These files contain the dependencies and configuration details for the server-side packages used in the application.
 
+
 ## Deployment
 
-To deploy the Trade Tracker application, you can use a hosting platform like Render.com. Render.com provides a reliable platform for deploying web applications. You can follow their deployment instructions to deploy the client and server code separately.
+The deploy is made in a free layer of Render.com, it may take time to load the data from MongoDB
+https://admin-frontend-21hu.onrender.com/
 
-Make sure to set up your MongoDB database and configure the necessary environment variables for the server application.
 
 ## Conclusion
 
-Trade Tracker is a comprehensive MERN application that enables users to track their trades and manage their trading activities. By leveraging the power of MongoDB, Express.js, React.js, and Node.js, the application provides a seamless trading experience. With the
+Trade Tracker was an invaluable project that provided me with clairvoyance on how to seamlessly integrate a MERN (MongoDB, Express.js, React.js, Node.js) application, while also equipping me with new tools and skills to further enhance my growth as a software developer.
 
 
 
